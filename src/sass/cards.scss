@@ -1,0 +1,72 @@
+
+//CARDS
+.cards{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-bottom: 85px;
+    
+}
+
+.card {
+    position: relative;
+    padding: 0px 50px;
+    letter-spacing: $letterSpace;
+    margin-bottom: 60px;
+
+    &:nth-child(2n){
+        border-left: 1px solid $lightGrey;;
+        border-right: 1px solid $lightGrey;;
+    }
+
+    &__month{
+        color: $grey;
+        font-size: 4rem;
+        margin-bottom: 100px;
+    }
+
+    &__title{
+        color: $black;
+        font-size: 1.3rem;
+        margin-bottom: 30px;
+        font-weight: 500;
+    }
+
+    &__category{
+        color: $textGrey;
+        margin-bottom: 100px;
+        font-weight: 300;
+    }
+
+    &__date{
+        color: $black;
+        margin-bottom: 25px;
+        font-weight: 400; 
+    }
+
+    &__image{
+        position: relative;
+        display: block;
+        width: 100%;
+        margin-bottom: 25px; 
+    }
+
+    &__footer{
+        display: flex;
+        justify-content: left;
+        align-items: flex-end;
+    }
+
+    &__excerpt{
+        letter-spacing: 0px !important;
+        color: $textGrey;
+        font-weight: 300;
+        width: 90%;
+    }
+
+    &__footer a{
+        color: $black;
+        text-decoration: none;
+    }
+
+}

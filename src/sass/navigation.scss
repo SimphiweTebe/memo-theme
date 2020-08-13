@@ -1,0 +1,86 @@
+
+/* SIDE NAVIGATION */
+
+.sidebar{
+    position: relative;
+    width: 20%;
+    max-width: 280px;
+    background: $lightGrey;
+    padding: 80px 5%;
+
+    .logo{
+        margin-bottom: 120px;
+        display: block;
+        text-decoration: none;
+        font-weight: 600;
+        color: $black;
+        font-size: 1.7rem;
+        letter-spacing: 1.5px;
+
+        display: flex;
+        justify-content: space-between;
+
+        .image{
+            display: block;
+            margin-right: 15px;
+        }
+    }
+
+    ul{
+        list-style: none;
+    }
+
+    ul li{
+        margin-bottom: 50px;
+    }
+
+    ul li a{
+        text-decoration: none;
+        color: $linkGrey;
+        letter-spacing: $letterSpace;
+        font-size: $linkSize;
+    }
+}
+
+/* TOP NAVIGATION */
+
+.user__menu{
+    position: relative;
+    margin-top: 90px;
+}
+
+.site__header{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 70px auto;
+    padding: 0 50px;
+
+    h1{
+        font-size: 2rem;
+        letter-spacing: $letterSpace;
+        color: $black;
+        font-weight: 500;
+    }
+
+    form input{
+        border: 1px solid $grey;
+        padding: 15px;
+        min-width: 250px;
+    }
+}
+
+.tab{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 80%;
+    max-width: 450px;
+    font-size: $linkSize;
+    letter-spacing: $letterSpace;
+    margin-bottom: 80px;
+    padding: 0 50px;
+}
