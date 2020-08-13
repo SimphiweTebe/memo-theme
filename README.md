@@ -4,4 +4,3 @@
 - "npm start" to run the dev-server
 - Make sure the "proxy" URL in package.json is changed to match your local environment
 - Also update the baseURL variable inside the context api: 'src/context/CourseState.js'
-- You will only see changes to WP after "npm run build" 
