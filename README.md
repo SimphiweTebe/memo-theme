@@ -1,4 +1,4 @@
-## MEMO Theme for WP 
+## Memo Theme for WP 
 
 - Run "npm install" to download project dependencies
 - "npm start" to run the dev-server
